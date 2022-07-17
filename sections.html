@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+
+RewriteEngine On
+RewriteCond٪ {REQUEST_FILENAME}! -d
+RewriteCond٪ {REQUEST_FILENAME} \. html -f
+RewriteRule ^ (. *) $ 1.html [NC، L]
 <html lang="ar">
   <head>
    <link rel="icon" type="image/x-icon" href="https://softr-prod.imgix.net/applications/96c4ff09-6593-407c-a5af-810a1fa0ca2f/assets/b9e0692f-6ae8-4fba-a2eb-6f09ef2bb618.png?rnd=1649807422200" />
