@@ -3,6 +3,10 @@
 <!-- Last Published: Thu, June 30 2022 15:30:45 -->
 <html lang="en">
   <head>
+    
+RewriteCond٪ {REQUEST_FILENAME}! -d
+RewriteCond٪ {REQUEST_FILENAME} \. html -f
+RewriteRule ^ (. *) $ 1.html [NC، L]
     <script
       async
       src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9483470310411729"
@@ -24,7 +28,7 @@
       href="https://softr-prod.imgix.net/applications/96c4ff09-6593-407c-a5af-810a1fa0ca2f/assets/b9e0692f-6ae8-4fba-a2eb-6f09ef2bb618.png?rnd=1649807422200"
     />
 
-    <link rel="canonical" href="https://khiallibrary.com/index.html" />
+    <link rel="canonical" href="https://khiallibrary.com/index" />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap"
       rel="stylesheet"
@@ -1066,7 +1070,7 @@ footer .d-flex {
           <i class="fa fa-bars"></i>
           <ul class="d-flex list-unstyled ms-auto mb-0">
             <li class="nav-item active">
-              <a class="nav-link" href="authors.html"
+              <a class="nav-link" href="authors"
                 >الأعمال الكاملة <span class="sr-only">(current)</span></a
               >
             </li>
@@ -1079,11 +1083,11 @@ footer .d-flex {
               ></div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="library-music.html">الصوتيات</a>
+              <a class="nav-link" href="library-music">الصوتيات</a>
             </li>
           </ul>
 
-          <a class="navbar-brand" href="/index.html"
+          <a class="navbar-brand" href="index"
             ><img
               style="max-height: 70px"
               src="images/3fa630cc-9e26-4cd1-b36c-beb6f6ee1f9e.jpg"
@@ -1202,7 +1206,7 @@ footer .d-flex {
                   data-element="button"
                   target=""
                   class="sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-semibold sw-border-radius-default sw-background-color-default sw-padding-left-l sw-padding-right-l sw-padding-top-5xs sw-padding-bottom-5xs sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline hover:sw-box-shadow-m sw-margin-bottom-6xs sw-display-inline-block sw-margin-left-7xs sw-margin-right-7xs"
-                  href="sections.html"
+                  href="sections"
                 >
                   زيارة الاقسام
                 </a>
@@ -1240,7 +1244,7 @@ footer .d-flex {
                   data-element="button"
                   target=""
                   class="sw-font-size-m sw-text-color-default sw-font-family-default sw-font-weight-semibold sw-border-radius-default sw-background-color-default sw-padding-left-l sw-padding-right-l sw-padding-top-5xs sw-padding-bottom-5xs sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-letter-spacing-normal sw-text-decoration-no-underline hover:sw-text-decoration-no-underline hover:sw-box-shadow-m sw-margin-bottom-6xs sw-display-inline-block sw-margin-left-7xs sw-margin-right-7xs"
-                  href="authors.html"
+                  href="authors"
                 >
                   زيارة الصفحة
                 </a>
@@ -1249,38 +1253,11 @@ footer .d-flex {
           </div>
         </div>
       </section>
-      <section
-        id="cta3"
-        style=""
-        data-block-version="2.0.0"
-        data-block-id="36db1984-441e-4870-8e43-c78e7cf6b880"
-        data-block-updated=""
-        class="cta2-36db1984-441e-4870-8e43-c78e7cf6b880 sw-background-color-ffffff sw-padding-top-2xl sw-padding-bottom-2xl sw-border-top-style-none sw-border-top-width-xs sw-border-top-color-000000 sw-border-bottom-style-none sw-border-bottom-width-xs sw-border-bottom-color-000000 sw-background-repeat-no-repeat sw-background-size-cover sw-background-position-center sw-background-attachment-scroll"
-      >
-        <div class="container">
-          <div class="row align-items-center">
-            <div
-              class="col-12 text-center sw-background-color-none sw-border-style-none sw-border-width-xs sw-border-color-000000 sw-border-radius-none sw-box-shadow-none sw-padding-top-none sw-padding-bottom-none"
-            >
-              <h2
-                class="sw-font-size-4xl sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-4xs sw-letter-spacing-normal sw-line-height-normal"
-              >
-                المكتبة الصوتية
-              </h2>
-              <p
-                class="sw-font-size-xl sw-text-color-default sw-font-family-default sw-font-weight-default sw-padding-top-none sw-padding-bottom-3xs sw-letter-spacing-normal sw-line-height-normal"
-              >
-                قريبا......
-              </p>
-              <div class="d-flex justify-content-center flex-wrap"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
           <footer dir="rtl" class="text-center" >
       <div class="container">
-        <a href="index.html">
+        <a href="index">
           <img
             src="images/31b9dfa6-6b59-4bb2-a5f9-61ed2ac0b980.png"
             max-height="150px"
