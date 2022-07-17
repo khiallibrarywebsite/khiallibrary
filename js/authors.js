@@ -28,7 +28,7 @@ async function getData() {
           <img class="card-img-top" src="${author.fields.Attachments[0].url}">
           <div class="card-body" style="    height: 250px;
     overflow: auto;">
-            <h3 class="card-title" data-id="${author.id}"><a href="author.html#${author.id}" style="text-decoration: none; color: #222; outline: none;">${author.fields.Name}</a></h3>
+            <h3 class="card-title" data-id="${author.id}"><a href="author#${author.id}" style="text-decoration: none; color: #222; outline: none;">${author.fields.Name}</a></h3>
             <p class="card-text">${author.fields['1']}</p>
           </div>
         </div>
