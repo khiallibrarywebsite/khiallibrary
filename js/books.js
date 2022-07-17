@@ -242,7 +242,7 @@ function createBookContent(book) {
       " "
     )}</h5>
 
-              <a class="btn btn-sm text-success" href="book.html#${book.id
+              <a class="btn btn-sm text-success" href="book#${book.id
     }">أقرا الكتاب</a>
 
         </div>
