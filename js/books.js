@@ -173,7 +173,7 @@ let url;
 const moreButton = document.querySelector("#moreButton");
 moreButton.addEventListener("click", getBooksData);
 async function getBooksData() {
-  document.querySelector('#pageCategory').inner\ += `<div id="gif"><img src="gif.gif" style="max-height: unset;max-width: unset;"/></div>`;
+  document.querySelector('#pageCategory').innerHTML += `<div id="gif"><img src="gif.gif" style="max-height: unset;max-width: unset;"/></div>`;
   setTimeout(function () {
     $('#pageCategory').children('#gif').hide();
   }, 2000)
@@ -242,7 +242,7 @@ function createBookContent(book) {
       " "
     )}</h5>
 
-              <a class="btn btn-sm text-success" href="book#${book.id
+              <a class="btn btn-sm text-success" href="book.html#${book.id
     }">أقرا الكتاب</a>
 
         </div>
@@ -295,7 +295,7 @@ window.addEventListener("DOMContentLoaded", () => {
                 pageCategory.innerHTML = `
             <div class="my-3 text-center">
               <p> لا يوجد هذا الكتاب يمكنك طلبه عبر الاميل</p>
-              <a href="mailto:support@khiallibrary.com"
+              <a href="mailto:khiallibrary.com@gmail.com"
               ><i class="fa fa-at btn btn-sm btn-danger mx-1"></i> khiallibrary.com@gmail.com
             </a>
             </div>
