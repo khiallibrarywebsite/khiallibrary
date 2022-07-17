@@ -20,7 +20,7 @@ async function getData() {
       if (document.getElementById('dataPrint')) {
         dataPrint.innerHTML += `
         <section class="section__style">
-          <h2><a href="books.html#${record.id}">${record.fields.Name}</a></h2>
+          <h2><a href="books#${record.id}">${record.fields.Name}</a></h2>
           <div class="d-flex align-items-center justify-content-center">
             ${record.fields.Notes}
           </div>
