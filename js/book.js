@@ -19,7 +19,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
         <div class="d-flex align-items-center">
 
-     <button class="ecraa" onclick={document.getElementById("iframe").style.display="inline"}>أقرا الكتاب</button>
+     <button class="ecraa" onclick={document.getElementById("iframe").style.display="inline"}أقرا الكتاب</button>
 
 
           <a class="btn btn-sm btn-success mx-1" href="${selectedBook[0].fields[selectedCategory.download]}" target="_blank" download="download" >تحميل الكتاب</a>
