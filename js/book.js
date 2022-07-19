@@ -24,7 +24,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
           <a class="btn btn-sm btn-success mx-1" href="${selectedBook[0].fields[selectedCategory.download]}" target="_blank" download="download" >تحميل الكتاب</a>
 
-          <
+
 
         </div>
     </div>
