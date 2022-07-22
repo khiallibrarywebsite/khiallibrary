@@ -242,8 +242,10 @@ function createBookContent(book) {
       " "
     )}</h5>
 
-              <a class="btn btn-sm text-success" href="book#${book.id
-    }">أقرا الكتاب</a>
+              <a class="btn btn-sm text-success" href="book.html?name=${book.fields[
+      selectedCategory.name
+    ].replace(
+      /[.pdf.rar % zip zi doc $ @ # * ( ) . , ; : " ' - | '_']/g,"-" )}&id=#${book.id}">أقرا الكتاب</a>
 
         </div>
       </div>
